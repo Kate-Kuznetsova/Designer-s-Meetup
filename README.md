@@ -1,0 +1,1 @@
+responsive template layout https://www.figma.com/file/W9nvXqDs4z016pXZ0yIOg3/designersmeetup_LandingPage?type=design&node-id=1-21&t=GctJUv6G7OlPcemS-0

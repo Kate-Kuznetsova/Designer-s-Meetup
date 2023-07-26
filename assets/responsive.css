@@ -1,0 +1,687 @@
+
+@media screen and (max-width: 1440px) {
+    #about {
+        flex-direction: column;
+        gap: 60px;
+        height: auto;
+    }
+
+    #speakers {
+        padding-right: 15px;
+    }
+
+    #speakers-content {
+        height: auto;
+        padding-top: 0;
+    }
+
+    #speakers-header {
+        min-height: 152px;
+        width: auto;
+        height: auto;
+    }
+
+    #speakers-text {
+        min-height: 88px;
+        width: auto;
+        height: auto;
+    }
+
+    #reasons-to-join {
+        padding: 30px;
+    }
+
+    #reason-cards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #meetup-venue_conteiner {
+        padding: 95px 30px 95px 30px;
+    }
+
+    #square-dots {
+        display: none;
+    }
+
+    .frame-top,
+    .frame-bottom {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    #header {
+        width: calc(100%*0.95);
+    }
+
+    #header_burger-btn {
+        display: unset;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    input:checked~#nav {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        margin-top: 370px;
+        background: #fff;
+        z-index: 3;
+        padding: 10px 33px;
+        transform: translate(8px, 2px);
+        position: absolute;
+    }
+
+    .nav-link {
+        font-size: 25px;
+        color: #151A25;
+        font-weight: 400;
+    }
+
+    #start-page_content {
+        width: calc(100%*0.95);
+        padding: 0;
+        height: auto;
+    }
+
+    h1 {
+        font-size: calc(85px*0.8);
+    }
+
+    #start-text {
+        width: calc(100%*0.85);
+        height: auto;
+    }
+
+    #meet-learn_container {
+        align-items: center;
+        padding-left: 0;
+    }
+
+    #meetup-venue-content {
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    #speakers-header {
+        font-size: calc(56px*0.8);
+        line-height: calc(76px*0.8);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #element1 {
+        display: none;
+    }
+
+    #svg-elements {
+        display: none;
+    }
+
+    #schedules-head_contant {
+        max-width: 1001px;
+        width: calc(1001px*0.85);
+    }
+
+    .details-item {
+        max-width: 1001px;
+        width: calc(1001px*0.85);
+    }
+
+    .tabs-content_item.is-active {
+        justify-content: center;
+    }
+
+    #schedule {
+        padding: 0;
+    }
+
+    #speakers {
+        justify-content: center;
+        padding: 40px 0;
+    }
+
+    #speakers-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #meetup-venue_conteiner {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 40px 30px 95px 40px;
+    }
+
+    #sponsors {
+        min-height: 596px;
+        height: auto;
+    }
+
+    #sponsors-container {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .frame-top,
+    .frame-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 60px;
+        width: auto;
+        height: auto;
+    }
+
+    #sponsors-list-slide01,
+    #sponsors-list-slide02,
+    #sponsors-list-slide03 {
+        height: auto;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #sponsors-list {
+        height: auto;
+        padding: 40px 0 30px;
+    }
+
+    #menus {
+        width: calc(494px*0.8);
+    }
+
+    #footer {
+        max-width: 1182px;
+        width: auto;
+        max-height: 307px;
+        height: auto;
+    }
+
+    #footer-conteiner {
+        justify-content: space-between;
+        max-width: 1111px;
+        width: auto;
+        height: auto;
+    }
+
+    #contacts {
+        max-width: 457px;
+        width: auto;
+        height: auto;
+    }
+
+    #contacts-content {
+        max-width: 457px;
+        width: auto;
+        height: auto;
+    }
+
+    .footer-text {
+        max-width: 457px;
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    #schedules-head_contant {
+        width: calc(1001px*0.75);
+    }
+
+    .tabs-content_item.is-active {
+        gap: 20px;
+    }
+
+    .details-item {
+        width: calc(1001px*0.8);
+    }
+
+    #top-anchor {
+        transform: translate(85vw, -2.5vh);
+    }
+
+    #cta {
+        max-width: 1182px;
+        width: calc(100%*0.85);
+    }
+
+    #cta-container {
+        gap: 60px;
+        width: calc(100%*0.85);
+    }
+
+    #right-arrow,
+    #circles {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-conteiner {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    #schedules-head svg,
+    .hours {
+        display: none;
+    }
+
+    #schedules-head_contant {
+        padding-left: 0;
+    }
+
+    #cta {
+        width: calc(100%*0.75);
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #cta-container {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+
+    #footer {
+        max-height: initial;
+    }
+
+    #footer-conteiner {
+        flex-direction: column;
+    }
+
+    #about {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 854px) {
+    h1 {
+        font-size: calc(85px*0.7);
+    }
+
+    #start-text {
+        width: calc(100%*0.8);
+    }
+
+    #explore-link {
+        padding: 0;
+    }
+
+    h2 {
+        font-size: calc(85px*0.6);
+        line-height: 60px;
+        height: auto;
+    }
+
+    .details-item {
+        width: 100%;
+    }
+
+    #meet-learn {
+        height: auto;
+    }
+
+    #meet-learn_container {
+        padding: 20px 0;
+        height: auto;
+        gap: 40px;
+    }
+
+    #meetup-details {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .meetup-detail,
+    .meetup-detail_container {
+        height: 100px;
+    }
+
+    #schedules-head_contant {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+
+    #schedule-tabs {
+        gap: 30px;
+    }
+
+    #speakers-text {
+        padding: 0 0 36px 0;
+    }
+
+    .details-item_picture {
+        display: none;
+    }
+
+    h4 {
+        font-size: calc(56px*0.8);
+        line-height: calc(76px*0.8);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #start-page {
+        padding: 40px 0;
+    }
+
+    h1 {
+        font-size: calc(85px*0.55);
+    }
+
+    #start-text {
+        width: calc(100vw*0.8);
+        font-size: calc(100%*0.9);
+        padding-top: 0;
+    }
+
+    h2 {
+        width: calc(100vw*0.8);
+    }
+
+    #place {
+        font-size: calc(100%*0.9);
+        height: auto;
+    }
+
+    .meetup-details {
+        height: auto;
+    }
+
+    h6 p,
+    #explanation {
+        font-size: 14px;
+    }
+
+    #about-content {
+        width: calc(100vw*0.95);
+    }
+
+    #about-details {
+        width: calc(100%*0.95);
+        height: auto;
+    }
+
+    #location-content p {
+        width: auto;
+        height: auto;
+    }
+
+    #headers h5 {
+        width: calc(100vw*0.95);
+        font-size: 40px;
+    }
+
+    .details-item:hover .details-item_header {
+        font-weight: 500;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    h2 {
+        font-size: calc(85px*0.4);
+        line-height: 40px;
+    }
+
+    .meetup-detail p {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 40px;
+        width: auto;
+    }
+
+    #explanation {
+        font-size: 12px;
+    }
+
+    #location-content p,
+    #when-content p {
+        font-size: 12px;
+        line-height: 15px;
+        width: auto;
+    }
+
+    #about-pictures,
+    #meetup-venue-pictures {
+        display: none;
+    }
+
+    #schedules-header {
+        font-size: 40px;
+    }
+
+    .details {
+        width: calc(100%*0.6);
+        align-items: center;
+        width: auto;
+    }
+
+    .details-item_header {
+        font-size: 20px;
+    }
+
+    .details-item_place p,
+    .details-item_time p {
+        font-size: 12px;
+    }
+
+    .details-item {
+        padding: 10px 5px;
+    }
+
+    .details-cpa {
+        font-size: 12px;
+        width: auto;
+        height: auto;
+        padding: 5px 10px;
+    }
+
+    #speakers-container {
+        width: calc(100%*0.9);
+        gap: 30px;
+    }
+
+    #speakers-content {
+        gap: 10px;
+    }
+
+
+    #speakers-header {
+        font-size: calc(56px*0.7);
+        line-height: calc(76px*0.6);
+        width: auto;
+        height: auto;
+        padding-bottom: 10px;
+        min-height: auto;
+    }
+
+    #speakers-text {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    #headers h5 {
+        width: calc(100vw*0.90);
+        font-size: 30px;
+    }
+
+    #sponsors-list-slide01,
+    #sponsors-list-slide02,
+    #sponsors-list-slide03 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frame-top,
+    .frame-bottom {
+        align-items: center;
+    }
+
+    #meetup-venue,
+    #meetup-venue_conteiner {
+        min-height: auto;
+    }
+
+    #meetup-venue-content {
+        width: calc(100%*0.9);
+    }
+
+    h4 {
+        font-size: calc(56px*0.7);
+        line-height: calc(76px*0.6);
+    }
+
+    #meetup-explanation {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    #meetup-subtitle {
+        font-size: 18px;
+        line-height: 0;
+    }
+
+    #meetup-venue_conteiner {
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    header {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    h1 {
+        line-height: normal;
+        width: auto;
+        height: auto;
+        font-size: calc(85px*0.4);
+    }
+
+    #start-text {
+        font-size: calc(100%*0.6);
+        padding: 25px;
+        line-height: 20px;
+    }
+
+    .meetup-details {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    #place {
+        font-size: calc(100%*0.6);
+        padding-bottom: 18px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        line-height: normal;
+        font-size: 30px;
+        height: auto;
+    }
+
+    #explanation {
+        font-size: 10px;
+        width: calc(100%*0.9);
+        line-height: 15px;
+        height: auto;
+    }
+
+    #about-meetup {
+        width: auto;
+        height: auto;
+    }
+
+    #about-details {
+        width: calc(100%*0.95);
+        height: auto;
+    }
+
+    #location-content p,
+    #when-content p {
+        font-size: 10px;
+        line-height: 15px;
+        width: auto;
+    }
+
+    #location-content h6,
+    #when-content h6 {
+        font-size: 14px;
+    }
+
+    #sponsors-header {
+        font-size: 30px;
+    }
+
+    #meetup-subtitle {
+        font-size: 16px;
+    }
+
+    form {
+        width: calc(100%*0.5);
+    }
+
+    #cta-header {
+        width: auto;
+        height: auto;
+        font-size: 24px;
+        line-height: initial;
+    }
+
+    #cta-text {
+        width: auto;
+        height: auto;
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    #cta-container div {
+        height: auto;
+    }
+
+    #footer-conteiner {
+        align-items: center;
+    }
+
+    .footer-text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    #contacts {
+        gap: 20px;
+    }
+
+    #footer-conteiner {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .details-item_header {
+        font-size: 14px;
+    }
+}
